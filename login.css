@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f78ca2; /* Latar belakang pink muda */
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  background-color: #fff; /* Latar belakang putih */
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table tr td {
+  padding: 10px;
+}
+
+button {
+  background-color: #f78ca2; /* Latar belakang pink muda */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e45c80; /* Warna hover yang lebih gelap */
+}

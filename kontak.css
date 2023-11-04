@@ -1,0 +1,72 @@
+body {
+  background-color: #ff69b4;
+}
+/* Gaya untuk container utama */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Gaya untuk kotak kiri (Formulir Kontak) */
+.contact-box {
+  flex: 1;
+  background-color: #ffc0cb; /* Pink Muda */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Gaya untuk tabel dalam formulir kontak */
+.contact-table {
+  width: 100%;
+}
+
+.contact-table td {
+  padding: 10px;
+}
+
+/* Gaya untuk tombol submit */
+.submit-button {
+  background-color: #da307d; /* Warna Pink Tua */
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Gaya untuk kotak kanan (Informasi Kontak) */
+.contact-info {
+  flex: 1;
+  background-color: #ffc0cb; /* Pink Muda */
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/* Gaya untuk logo sosial media */
+.social-logo {
+  width: 50px; /* Ubah ukuran lebar logo sesuai kebutuhan Anda */
+  height: 50px; /* Ubah ukuran tinggi logo sesuai kebutuhan Anda */
+  margin: 20px; /* Beri jarak antara logo dengan elemen lain jika diperlukan */
+}
+
+/* Gaya untuk nomor telepon */
+.phone-number {
+  font-weight: bold;
+}
+
+/* Gaya untuk gambar di tengah */
+.center-image {
+  text-align: center;
+}
+
+.logo-text {
+  font-size: 18px; /* Ubah ukuran font sesuai kebutuhan Anda */
+  font-weight: bold; /* Sesuaikan gaya font sesuai kebutuhan Anda */
+}
+/* Gaya untuk logo dan teks di sebelahnya */
+.logo-with-text {
+  display: flex;
+  align-items: center;
+}
