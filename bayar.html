@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="bayar.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="row">
+          <div class="col">
+            <h3 class="title">billing address</h3>
+
+            <div class="inputBox">
+              <span>Nama :</span>
+              <input type="text" placeholder="nama asli" />
+            </div>
+            <div class="inputBox">
+              <span>email :</span>
+              <input type="email" placeholder="email anda" />
+            </div>
+            <div class="inputBox">
+              <span>Alamat :</span>
+              <input type="text" placeholder="alamat rumah lengkap" />
+            </div>
+            <div class="inputBox">
+              <span>Kota :</span>
+              <input type="text" placeholder="" />
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span>kabupaten :</span>
+                <input type="text" placeholder="" />
+              </div>
+              <div class="inputBox">
+                <span>kode pos :</span>
+                <input type="text" placeholder="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3 class="title">payment</h3>
+
+            <div class="inputBox">
+              <span>cards accepted :</span>
+              <img src="src/card_img.png" alt="" />
+            </div>
+            <div class="inputBox">
+              <span>Nama anda :</span>
+              <input type="text" placeholder="isi nama anda" />
+            </div>
+            <div class="inputBox">
+              <span>No kartu kredit :</span>
+              <input type="number" placeholder="1111-2222-3333-4444" />
+            </div>
+            <div class="inputBox">
+              <span> bulan kadaluarsa:</span>
+              <input type="text" placeholder="" />
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span> tahun kadaluarsa :</span>
+                <input type="number" placeholder="" />
+              </div>
+              <div class="inputBox">
+                <span>CVV :</span>
+                <input type="text" placeholder="1234" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <input type="submit" value="proceed to checkout" class="submit-btn" />
+      </form>
+    </div>
+  </body>
+</html>

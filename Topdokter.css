@@ -1,0 +1,36 @@
+.table-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.dokter-table {
+  width: 100%; /*  lebar tabel  */
+  border-collapse: collapse;
+}
+.judul-table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.foto {
+  width: 100px; /* Sesuaikan ukuran foto bulat */
+  height: 100px; /* Sesuaikan ukuran foto bulat */
+  border-radius: 50%; /* Membuat foto berbentuk bulat */
+}
+
+.gender {
+  color: gray; /* Warna tulisan gender abu-abu */
+}
+
+/* Gaya untuk baris ganjil */
+.dokter-table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2; /* Warna latar belakang untuk baris ganjil */
+  padding: 10px; /* Beri ruang padding di dalam sel */
+  text-align: center; /* Pusatkan teks dalam sel secara horizontal */
+  vertical-align: middle; /* Pusatkan teks dalam sel secara vertikal */
+  border: 1px solid #ccc; /* Tambahkan garis batas antara sel */
+}
+td {
+  text-align: center;
+}
